@@ -2,31 +2,177 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
+    top: 70%
     right: 10%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 34%
+    right: 80%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 46%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
+.banner-interno__titulo__icono
+    background-color: #000
+    color: #000 !important
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #000000
+.barra-avance__boton--regresar span
+  color: #FFFFFF !important
+
+//BLOQUE TEXTO G
+.bloque-texto-ggg-imagen.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg__img 
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-gg__img2
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-gg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-gg__texto
+  position: relative
+  width: 75%
+.bloque-texto-gg__texto2
+  position: relative
+  width: 75%
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.bloque-texto-gg--inverso
+  justify-content: flex-start
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.bloque-texto-gg-imagen 
+  .bloque-texto-gg__img
+    width: 36%
+  
+  .bloque-texto-gg__texto
+    width: 60%
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.bloque-texto-gg
+  @media (max-width: $bp-max-md)
+    padding-top: 40% !important
+    &__img
+      width: 100% !important
+      height: 50%
+    &__texto
+      margin-top: 40px !important
+      width: 100% !important
+    &__img1
+      width: 100% !important
+      height: 50%
+    &__img2
+      width: 25% !important
+      height: 25%
+    &__texto1
+      margin-top: 40px !important
+      width: 100% !important
+    &__texto2
+      margin-top: 0px !important
+      width: 74% !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+  @media (max-width: $bp-max-xs)
+    padding-top: 200px !important
+    &__img
+      height: 250px
+    &__img1
+      height: 250px
+    
 
-figcaption
-  font-weight: normal
+.bloque-texto-ggg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-ggg__texto
+  position: relative
+  width: 66%
+  
+
+.bloque-texto-gg--inverso 
+  .bloque-texto-gg__img
+    left: auto
+    right: 0
+.bloque-texto-gg__img1 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+.bloque-texto-gg__texto1
+  position: relative
+  width: 50%
+
+//fondos
+
+.bgf1
+  background-color: #C9E8F7
+.bgf2
+  background-color: #7DD3FF
+.bgf3
+  background-color: #0F654D
+.bgf4
+  background-color: #5AF6EA
+.bgf5
+  background-color: #C0F6F2 
+
+.cajon.color-primario
+  background-color: #C0F6F2
+
+.cajon.color-secundario
+  background-color:#C9E8F7
+
+.BG01
+  background-image: url("../assets/curso/temas/tema1/imgfondo1.svg")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -2.7rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important

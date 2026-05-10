@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Programación de soluciones de software',
+    Description:
+      'Este componente formativo brinda las bases conceptuales y prácticas para comprender la gestión del desarrollo de software y el levantamiento de requisitos. Aborda metodologías tradicionales y ágiles, tipos de requisitos, técnicas de elicitación y roles del proceso, fortaleciendo el criterio técnico y comunicativo en equipos de desarrollo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Metodologías de desarrollo de software',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Metodologías ágiles y tradicionales',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Características, ventajas y desventajas de las metodologías',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +56,77 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Fundamentos de los requisitos de software',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto de requisitos de software',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos y características de los requisitos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Elicitación de requisitos de software',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto y análisis de documentos',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Técnicas para la recolección de información',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo:
+              'Técnicas de recolección de información basadas en interacción y observación',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Focus group como técnica de recopilación de información',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo:
+              'Talleres de Requisitos (JAD - Joint Application Development)',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Roles en el desarrollo y levantamiento de requisitos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Usuarios, actores y stakeholders',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo:
+              'Cliente líder, dueño del producto, equipo de desarrollo y analista',
+            hash: 't_5_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -72,11 +146,6 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
       },
       {
         icono: 'fas fa-book',
@@ -110,13 +179,90 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Actor',
+      significado:
+        'Rol que desempeña una persona, sistema externo u organización al interactuar con el sistema en desarrollo. Se representa en diagramas de casos de uso de UML como una figura humana con el nombre del rol.',
+    },
+    {
+      termino: 'Backlog',
+      significado:
+        'Lista priorizada y dinámica de todos los requisitos, funcionalidades y mejoras pendientes de un producto de software. En SCRUM es gestionada exclusivamente por el Product Owner.',
+    },
+    {
+      termino: 'Elicitación',
+      significado:
+        'Proceso sistemático de descubrir, extraer y recopilar los requisitos de un sistema a partir de múltiples fuentes (stakeholders, documentos, sistemas existentes), utilizando diversas técnicas de recolección de información.',
+    },
+    {
+      termino: 'Requisito funcional',
+      significado:
+        'Descripción de una funcionalidad específica que el sistema debe proporcionar, definiendo qué debe hacer el sistema en respuesta a entradas o situaciones particulares, desde la perspectiva observable del usuario.',
+    },
+    {
+      termino: 'Requisito no funcional',
+      significado:
+        'Atributo de calidad o restricción que define cómo debe funcionar el sistema (rendimiento, seguridad, usabilidad, disponibilidad, escalabilidad), en contraste con qué debe hacer. Tiene alto impacto en la arquitectura del sistema.',
+    },
+    {
+      termino: 'Sprint',
+      significado:
+        'Iteración de duración fija (1 a 4 semanas) en SCRUM, al final de la cual el equipo debe entregar un incremento de software potencialmente desplegable que agrega valor al producto y puede ser mostrado al cliente para obtener retroalimentación.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Capacidad de vincular cada requisito con su origen (stakeholder, documento de negocio o regulación) y con los artefactos de diseño, código y pruebas que lo implementan. Facilita la gestión de cambios y el cumplimiento regulatorio.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Boehm, B. & Turner, R. (2004). Balancing agility and discipline: a guide for the perplexed. Addison-Wesley Professional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cohn, M. (2004). User stories applied: for agile software development. Addison-Wesley Professional.',
+      link: '',
+    },
+    {
+      referencia:
+        'IEEE Computer Society. (2014). IEEE guide to the software engineering body of knowledge (SWEBOK V3.0). IEEE Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Leffingwell, D. (2021). SAFe 5.0 distilled: achieving business agility with the scaled agile framework. Addison-Wesley Professional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pressman, R. S., & Maxim, B. R. (2020). Ingeniería del software: un enfoque práctico (8.a ed.). McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Robertson, S., & Robertson, J. (2012). Mastering the requirements process: getting requirements right (3rd ed.). Addison-Wesley Professional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rubin, K. S. (2012). Essential Scrum: a practical guide to the most popular agile process. Addison-Wesley Professional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sommerville, I. (2019). Engineering software products: an introduction to modern software engineering. Pearson Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Standish Group. (2015). CHAOS Report. Standish Group International.',
+      link: '',
+    },
+    {
+      referencia:
+        'Wiegers, K., & Beatty, J. (2013). Software requirements (3rd ed.). Microsoft Press.',
       link: '',
     },
   ],

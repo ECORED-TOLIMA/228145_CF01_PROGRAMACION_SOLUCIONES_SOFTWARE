@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84">
+  <g id="img3" transform="translate(-393.711 -1063)">
+    <rect id="Rectangle_458905" data-name="Rectangle 458905" width="84" height="84" transform="translate(393.711 1063)" fill="#68c6ea"/>
+    <g id="mensaje-de-error" transform="translate(402.145 1070.863)">
+      <path id="Path_1032104" data-name="Path 1032104" d="M10.713,16A5.713,5.713,0,0,0,5,21.713V49.137a5.713,5.713,0,0,0,5.713,5.713h3.428a1.143,1.143,0,0,1,1.143,1.143v8.033a1.118,1.118,0,0,0,1.794.88L29.83,55.088a1.143,1.143,0,0,1,.7-.238H56.42a5.713,5.713,0,0,0,5.713-5.713V21.713A5.713,5.713,0,0,0,56.42,16Z" transform="translate(0 2.14)" fill="#ccd0da"/>
+      <path id="Path_1032105" data-name="Path 1032105" d="M37.313,3.533,53.57,29.224a5.436,5.436,0,0,1-4.6,8.341H16.453a5.436,5.436,0,0,1-4.6-8.341L28.106,3.533a5.449,5.449,0,0,1,9.208,0Z" transform="translate(0.857 0)" fill="#d84557"/>
+      <ellipse id="Ellipse_13686" data-name="Ellipse 13686" cx="2" cy="2.5" rx="2" ry="2.5" transform="translate(31.566 28.137)" fill="#f0f2f5"/>
+      <path id="Path_1032106" data-name="Path 1032106" d="M30.393,22.712a2.48,2.48,0,0,1-2.472-2.274l-.668-8.022a3.153,3.153,0,1,1,6.283,0l-.668,8.023A2.48,2.48,0,0,1,30.393,22.712Z" transform="translate(3.173 1.141)" fill="#f0f2f5"/>
+      <g id="Group_1188750" data-name="Group 1188750" transform="translate(11.856 42.136)">
+        <path id="Path_1032107" data-name="Path 1032107" d="M15.571,39.285H12.143a1.143,1.143,0,0,1,0-2.285h3.428a1.143,1.143,0,0,1,0,2.285Z" transform="translate(-11 -37)" fill="#8991a0"/>
+        <path id="Path_1032108" data-name="Path 1032108" d="M39.571,44.285H36.143a1.143,1.143,0,1,1,0-2.285h3.428a1.143,1.143,0,1,1,0,2.285Z" transform="translate(-7.576 -36.287)" fill="#8991a0"/>
+        <path id="Path_1032109" data-name="Path 1032109" d="M46.566,39.285H19.143a1.143,1.143,0,1,1,0-2.285H46.566a1.143,1.143,0,1,1,0,2.285Z" transform="translate(-10.001 -37)" fill="#8991a0"/>
+        <path id="Path_1032110" data-name="Path 1032110" d="M35,44.285H12.143a1.143,1.143,0,0,1,0-2.285H35a1.143,1.143,0,0,1,0,2.285Z" transform="translate(-11 -36.287)" fill="#8991a0"/>
+        <path id="Path_1032111" data-name="Path 1032111" d="M48.285,39.285H47.143a1.143,1.143,0,0,1,0-2.285h1.143a1.143,1.143,0,1,1,0,2.285Z" transform="translate(-6.007 -37)" fill="#8991a0"/>
+      </g>
+    </g>
+  </g>
+</svg>

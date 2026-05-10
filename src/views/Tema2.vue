@@ -5,7 +5,15 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Fundamentos de los requisitos de software
+
+    Separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.1 Concepto de requisitos de software
+
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.2 Tipos y características de los requisitos
 
 </template>
 
