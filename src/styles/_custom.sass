@@ -156,12 +156,23 @@
   background-color: #C9E8F7
 .bgf2
   background-color: #7DD3FF
+.bgf2-1
+  background-color: #7DD3FF
+  border-radius: 50px
 .bgf3
   background-color: #0F654D
 .bgf4
   background-color: #5AF6EA
 .bgf5
   background-color: #C0F6F2 
+.bgf5-1
+  border-radius: 50px
+.bgf6
+  background-color: #FFE2BC 
+.bgf7
+  background-color: #FFEEBC 
+.bgf8
+  background-color:#F2E4EF
 
 .cajon.color-primario
   background-color: #C0F6F2
@@ -176,3 +187,180 @@
   margin-inline: -2.7rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
+
+.BG02
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -2.7rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGDEGRA
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-image: url("../assets/curso/temas/tema1/imgfondodegra.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.titulo
+  background-color:#FFE2BC
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  @media (max-width: $bp-max-sm)
+    height: 43px
+  
+.titulo h5
+  margin-right: 23px
+  margin-bottom: 0px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+.tarjeta--azul
+  background-color: #C9E8F7 !important
+// Esta es la clase que pusimos en el .pug
+.slider-custom-bg
+  background-color: #ffffff // El fondo blanco nítido
+  border-radius: 20px // Bordes redondeados
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08) // Sombra suave para dar profundidad
+  
+  // Opcional: Ajustar el color de las flechas para que combine con el fondo naranja
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #AE0000 // Azul intenso
+    opacity: 1
+    border: none
+  
+  .slyder-a__bullets__item
+    background-color: #AFAFAF
+    &--active
+      background-color: #AE0000
+      border-color: #AE0000
+.slider-custom-bg .slyder-a__bullets__item
+  background-color: #AE0000
+.slider-custom-bg .slyder-a__bullets__item--active
+  background-color: #5AF6EA
+  border-color: #5AF6EA
+.slyder__btn
+  background-color: #AE0000
+  color: white
+.fondo-slyder
+  background-image: url("../assets/curso/temas/tema3/imgfondoslyf.png") !important
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--slyder
+  height: 100%
+  background-color: #ffff // Color de fondo suave
+  border-radius: 15px
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+  border: 2px solid #ffff
+
+.BGINTRO01
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(0, 255, 242, 1) 0%, rgba(0, 255, 242, 1) 50%, rgba(0, 255, 242, 1) 100%)
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #ffb2b2ff
+    border-radius: 15px 
+    &:hover      
+      background-color: #C9E8F7
+      h4, p
+      .bottomCircle
+        &::before
+          background-color: #CFDE90
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  img
+    max-width: 60%
+    margin: 45px
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 170px
+    height: 170px
+    background-color: #2F3AE6
+    border-radius: 999px
+  @media (max-width: 1000px)
+    img
+      max-width: 45%
+      margin: 86px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.tabla-a thead
+  background-color: #FFEEBC
+.tabla-a.color-acento-contenido thead
+  border-color: #FFC928

@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Programación de soluciones de software',
+    Name: 'Programación de soluciones de <em>software</em>',
     Description:
-      'Este componente formativo brinda las bases conceptuales y prácticas para comprender la gestión del desarrollo de software y el levantamiento de requisitos. Aborda metodologías tradicionales y ágiles, tipos de requisitos, técnicas de elicitación y roles del proceso, fortaleciendo el criterio técnico y comunicativo en equipos de desarrollo.',
+      'Este componente formativo brinda las bases conceptuales y prácticas para comprender la gestión del desarrollo de <em>software</em> y el levantamiento de requisitos. Aborda metodologías tradicionales y ágiles, tipos de requisitos, técnicas de elicitación y roles del proceso, fortaleciendo el criterio técnico y comunicativo en equipos de desarrollo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Metodologías de desarrollo de software',
+        titulo: 'Metodologías de desarrollo de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -56,12 +56,12 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Fundamentos de los requisitos de software',
+        titulo: 'Fundamentos de los requisitos de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Concepto de requisitos de software',
+            titulo: 'Concepto de requisitos de <em>software</em>',
             hash: 't_2_1',
           },
           {
@@ -74,7 +74,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Elicitación de requisitos de software',
+        titulo: 'Elicitación de requisitos de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -186,7 +186,7 @@ export default {
     {
       termino: 'Backlog',
       significado:
-        'Lista priorizada y dinámica de todos los requisitos, funcionalidades y mejoras pendientes de un producto de software. En SCRUM es gestionada exclusivamente por el Product Owner.',
+        'Lista priorizada y dinámica de todos los requisitos, funcionalidades y mejoras pendientes de un producto de <em>software</em>. En SCRUM es gestionada exclusivamente por el Product Owner.',
     },
     {
       termino: 'Elicitación',
@@ -206,7 +206,7 @@ export default {
     {
       termino: 'Sprint',
       significado:
-        'Iteración de duración fija (1 a 4 semanas) en SCRUM, al final de la cual el equipo debe entregar un incremento de software potencialmente desplegable que agrega valor al producto y puede ser mostrado al cliente para obtener retroalimentación.',
+        'Iteración de duración fija (1 a 4 semanas) en SCRUM, al final de la cual el equipo debe entregar un incremento de <em>software</em> potencialmente desplegable que agrega valor al producto y puede ser mostrado al cliente para obtener retroalimentación.',
     },
     {
       termino: 'Trazabilidad',
@@ -222,12 +222,12 @@ export default {
     },
     {
       referencia:
-        'Cohn, M. (2004). User stories applied: for agile software development. Addison-Wesley Professional.',
+        'Cohn, M. (2004). User stories applied: for agile <em>software</em> development. Addison-Wesley Professional.',
       link: '',
     },
     {
       referencia:
-        'IEEE Computer Society. (2014). IEEE guide to the software engineering body of knowledge (SWEBOK V3.0). IEEE Press.',
+        'IEEE Computer Society. (2014). IEEE guide to the <em>software</em> engineering body of knowledge (SWEBOK V3.0). IEEE Press.',
       link: '',
     },
     {
@@ -237,7 +237,7 @@ export default {
     },
     {
       referencia:
-        'Pressman, R. S., & Maxim, B. R. (2020). Ingeniería del software: un enfoque práctico (8.a ed.). McGraw-Hill Education.',
+        'Pressman, R. S., & Maxim, B. R. (2020). Ingeniería del <em>software</em>: un enfoque práctico (8.a ed.). McGraw-Hill Education.',
       link: '',
     },
     {
@@ -252,7 +252,7 @@ export default {
     },
     {
       referencia:
-        'Sommerville, I. (2019). Engineering software products: an introduction to modern software engineering. Pearson Education.',
+        'Sommerville, I. (2019). Engineering <em>software</em> products: an introduction to modern <em>software</em> engineering. Pearson Education.',
       link: '',
     },
     {
@@ -262,7 +262,7 @@ export default {
     },
     {
       referencia:
-        'Wiegers, K., & Beatty, J. (2013). Software requirements (3rd ed.). Microsoft Press.',
+        'Wiegers, K., & Beatty, J. (2013). <em>Software</em> requirements (3rd ed.). Microsoft Press.',
       link: '',
     },
   ],
