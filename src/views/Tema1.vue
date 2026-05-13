@@ -12,45 +12,45 @@
       p.mb-0 Una metodología de desarrollo de #[i software] es un conjunto estructurado de prácticas, principios, técnicas y herramientas que orientan al equipo de desarrollo en la producción de #[i software] de calidad, dentro de los plazos y presupuestos establecidos. Las metodologías no son fórmulas rígidas, sino marcos de referencia que deben adaptarse al contexto específico de cada proyecto y organización.
     p La importancia de contar con una metodología radica en que proporciona un lenguaje común al equipo, define responsabilidades claras, establece puntos de control para medir el avance y permite gestionar los riesgos de manera proactiva. Sin una metodología, los proyectos de #[i software] tienden a caer en el desarrollo ad hoc, donde la falta de estructura genera inconsistencias, retrabajo y productos de baja calidad que no satisfacen al cliente.
     p.mb-4 Históricamente, el desarrollo de #[i software] ha transitado por varias etapas:
-    .BGDEGRA
+    .BGDEGRA.px-4
       .row.justify-content-center.mb-4
         .col-lg-10
           LineaTiempoE.color-acento-contenido.mb-4
             .row(titulo="")
-              .col-lg-2.mb-3.mb-lg-0
+              .col-lg-2.col-8.mb-3.mb-lg-0
                 figure
                   img.img200(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
               .col-lg-10.mb-4.mb-lg-0
                 h5 Años 60–70. Desarrollo artesanal
-                p El desarrollo de #[i software] se realizaba de forma empírica, sin metodologías definidas ni procesos estandarizados. El código se construía de manera manual, dependiente de la experiencia individual del programador.
+                p.mb-0 El desarrollo de #[i software] se realizaba de forma empírica, sin metodologías definidas ni procesos estandarizados. El código se construía de manera manual, dependiente de la experiencia individual del programador.
             .row(titulo="")
-              .col-lg-2.mb-3.mb-lg-0
+              .col-lg-2.col-8.mb-3.mb-lg-0
                 figure
                   img.img200(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
               .col-lg-10.mb-4.mb-lg-0
                 h5 Años 70–80. Modelos secuenciales
-                p Surgen metodologías formales como el modelo en cascada y el modelo espiral, orientadas a aplicar principios de ingeniería, control y documentación al proceso de desarrollo de #[i software].
+                p.mb-0 Surgen metodologías formales como el modelo en cascada y el modelo espiral, orientadas a aplicar principios de ingeniería, control y documentación al proceso de desarrollo de #[i software].
             .row(titulo="")
-              .col-lg-2.mb-3.mb-lg-0
+              .col-lg-2.col-8.mb-3.mb-lg-0
                 figure
                   img.img200(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
               .col-lg-10.mb-4.mb-lg-0
                 h5 Años 90. Enfoques flexibles
-                p Aparecen modelos que buscan mayor adaptabilidad frente al cambio, cuestionando la rigidez de los enfoques tradicionales y priorizando la iteración y la retroalimentación continua.
+                p.mb-0 Aparecen modelos que buscan mayor adaptabilidad frente al cambio, cuestionando la rigidez de los enfoques tradicionales y priorizando la iteración y la retroalimentación continua.
             .row(titulo="")
-              .col-lg-2.mb-3.mb-lg-0
+              .col-lg-2.col-8.mb-3.mb-lg-0
                 figure
                   img.img200(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
               .col-lg-10.mb-4.mb-lg-0
                 h5 2001. Manifiesto Ágil
-                p La publicación del Manifiesto Ágil marca un punto de inflexión, consolidando principios centrados en la colaboración, la entrega incremental y la respuesta al cambio.
+                p.mb-0 La publicación del Manifiesto Ágil marca un punto de inflexión, consolidando principios centrados en la colaboración, la entrega incremental y la respuesta al cambio.
             .row(titulo="")
-              .col-lg-2.mb-3.mb-lg-0
+              .col-lg-2.col-8.mb-3.mb-lg-0
                 figure
                   img.img200(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
               .col-lg-10.mb-4.mb-lg-0
                 h5 Actualidad. Enfoques híbridos y escalado ágil
-                p Predominan enfoques que combinan metodologías tradicionales y ágiles, junto con frameworks de escalado ágil utilizados en proyectos empresariales de gran tamaño.
+                p.mb-0 Predominan enfoques que combinan metodologías tradicionales y ágiles, junto con #[i frameworks] de escalado ágil utilizados en proyectos empresariales de gran tamaño.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .bgf2-1.text-center.p-3
@@ -66,10 +66,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema1/img7.svg', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema1/img7.svg', alt='Figura 1 que muestra la línea de tiempo de la evolución de las principales metodologías de desarrollo de software, desde el modelo en cascada de 1970 hasta los enfoques híbridos actuales, ilustrando cómo cada era respondió a las limitaciones del enfoque anterior.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema1/img7_1.svg', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema1/img7_1.svg', alt='Figura 1 que muestra la línea de tiempo de la evolución de las principales metodologías de desarrollo de software, desde el modelo en cascada de 1970 hasta los enfoques híbridos actuales, ilustrando cómo cada era respondió a las limitaciones del enfoque anterior.')
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Metodologías ágiles y tradicionales
@@ -95,7 +95,7 @@
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2.order-lg-1
-              h4 Modelo en cascada (waterfall)
+              h4 Modelo en cascada (#[i waterfall])
               p Propuesto por Winston Royce en 1970, es el representante paradigmático de este enfoque. Sus fases son secuenciales y dependientes: análisis de requisitos, diseño del sistema, implementación, pruebas, despliegue y mantenimiento. La premisa central es que los requisitos son conocidos, estables y completamente definibles desde el inicio, lo que permite planificar con precisión el alcance, el costo y el tiempo total del proyecto.
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
@@ -122,16 +122,16 @@
       .col-lg-10
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Las metodologías ágiles emergieron como respuesta directa a las limitaciones del enfoque tradicional en proyectos con requisitos volátiles o poco definidos. El Manifiesto Ágil (2001), firmado por diecisiete expertos reunidos en Snowbird, Utah, estableció cuatro valores: individuos e interacciones sobre procesos y herramientas; #[i software] funcionando sobre documentación exhaustiva; colaboración con el cliente sobre negociación contractual; y respuesta ante el cambio sobre seguir un plan. Estos valores se complementan con doce principios que orientan la práctica cotidiana del desarrollo ágil.
-        p SCRUM es el framework ágil más adoptado globalmente. Organiza el trabajo en sprints de 1 a 4 semanas, con tres roles:
+        p SCRUM es el #[i framework] ágil más adoptado globalmente. Organiza el trabajo en #[i sprints] de 1 a 4 semanas, con tres roles:
     .row.justify-content-center.mb-4
-      .col-lg-4
+      .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.w-100.h-100
               .p-4
                 h5.text-center Product Owner (PO)
-                p.text-center Responsable de la visión del producto y la priorización del backlog. 
-      .col-lg-4
+                p.text-center Responsable de la visión del producto y la priorización del #[i backlog]. 
+      .col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.w-100.h-100
@@ -183,7 +183,7 @@
                 tr
                   th Entregas.
                   td Una entrega al final.
-                  td Entregas frecuentes (sprints).
+                  td Entregas frecuentes (#[i sprints]).
                 tr
                   th Equipo.
                   td Roles muy especializados.
@@ -226,7 +226,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen')
           
-        h2.text-center Alta predictibilidad del proyecto
+        h5.text-center Alta predictibilidad del proyecto
         p La predictibilidad constituye la mayor fortaleza de las metodologías tradicionales, ya que al definir completamente el alcance antes de iniciar el desarrollo es posible estimar con mayor precisión los costos y los tiempos. Esto facilita la gestión de contratos de precio fijo y la planificación presupuestal a largo plazo.
       .col-md.tarjeta.bgf6.p-5
         .row.justify-content-center.mb-4
@@ -234,7 +234,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen')
           
-        h2.text-center Documentación exhaustiva
+        h5.text-center Documentación exhaustiva
         p La producción de documentación detallada facilita el mantenimiento del sistema a lo largo del tiempo, especialmente cuando el equipo de desarrollo original ya no se encuentra disponible.
       .col-md.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
@@ -242,7 +242,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')
           
-        h2.text-center Claridad en roles y responsabilidades
+        h5.text-center Claridad en roles y responsabilidades
         p La separación del proceso en fases bien definidas reduce la ambigüedad sobre las responsabilidades de cada actor, estableciendo con claridad quién hace qué en cada etapa.
       .col-md.tarjeta.bgf7.p-5
         .row.justify-content-center.mb-4
@@ -250,7 +250,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img20.svg', alt='Texto que describa la imagen')
           
-        h2.text-center Puntos formales de control y seguimiento
+        h5.text-center Puntos formales de control y seguimiento
         p La aprobación formal entre fases proporciona hitos de control que permiten a los patrocinadores y responsables del proyecto tener mayor visibilidad sobre el avance y la toma de decisiones.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
@@ -283,7 +283,7 @@
                 img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen')
             .col-lg-9
               p.text-white Ejemplo práctico:
-              p.mb-0.text-white Una empresa colombiana que contrata el desarrollo de un sistema de nómina para el gobierno departamental bajo contrato de precio fijo con entrega en 18 meses, es un escenario típico donde el enfoque tradicional es apropiado. Los requisitos legales de liquidación de nómina son estables y bien conocidos, el cliente no puede participar semanalmente en el proceso, y la obligación contractual de entregar documentación completa hace de Waterfall o RUP la elección natural.
+              p.mb-0.text-white Una empresa colombiana que contrata el desarrollo de un sistema de nómina para el gobierno departamental bajo contrato de precio fijo con entrega en 18 meses, es un escenario típico donde el enfoque tradicional es apropiado. Los requisitos legales de liquidación de nómina son estables y bien conocidos, el cliente no puede participar semanalmente en el proceso, y la obligación contractual de entregar documentación completa hace de #[i Waterfall] o RUP la elección natural.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Ventajas y desventajas del enfoque ágil
@@ -313,7 +313,7 @@
               li
                 i.fas.fa-computer(style="color: #FFB758;")
                 | #[b Desafíos de escalabilidad] <br>
-                | La aplicación de metodologías ágiles en proyectos de gran escala, con equipos numerosos y distribuidos geográficamente, demanda el uso de frameworks adicionales como SAFe o LeSS, los cuales implican una curva de aprendizaje y costos de implementación significativos.
+                | La aplicación de metodologías ágiles en proyectos de gran escala, con equipos numerosos y distribuidos geográficamente, demanda el uso de #[i frameworks] adicionales como SAFe o LeSS, los cuales implican una curva de aprendizaje y costos de implementación significativos.
         .bgf3.p-3.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-3
@@ -321,7 +321,7 @@
                 img(src='@/assets/curso/temas/tema1/img26.png', alt='Texto que describa la imagen')
             .col-lg-9
               p.text-white Ejemplo práctico:
-              p.mb-0.text-white Una startup fintech colombiana que está construyendo una aplicación móvil de pagos digitales, con requisitos que evolucionan semanalmente según el feedback de sus primeros usuarios y un equipo de 8 personas co-ubicadas, es el escenario ideal para SCRUM. La capacidad de iterar rápidamente y ajustar la dirección del producto según el aprendizaje de cada sprint es el factor diferenciador que puede determinar el éxito en un mercado tan competitivo y cambiante.
+              p.mb-0.text-white Una #[i startup fintech] colombiana que está construyendo una aplicación móvil de pagos digitales, con requisitos que evolucionan semanalmente según el #[i feedback] de sus primeros usuarios y un equipo de 8 personas co-ubicadas, es el escenario ideal para SCRUM. La capacidad de iterar rápidamente y ajustar la dirección del producto según el aprendizaje de cada #[i sprint] es el factor diferenciador que puede determinar el éxito en un mercado tan competitivo y cambiante.
         p Partiendo de lo previamente expuesto, la siguiente tabla amplía un análisis comparativo, incluyendo metodologías específicas con sus ventajas, limitaciones y contextos de aplicación óptimos. Esta referencia es de gran utilidad al momento de fundamentar la selección metodológica ante el equipo y los patrocinadores del proyecto:       
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
@@ -343,7 +343,7 @@
                   th Mejor contexto
               tbody
                 tr
-                  td Waterfall
+                  td #[i Waterfall]
                   td Tradicional
                   td No
                   td Predictibilidad
@@ -366,7 +366,7 @@
                 tr
                   td SCRUM
                   td Ágil
-                  td Sprints 1-4 semanas
+                  td #[i Sprints] 1-4 semanas
                   td Adaptabilidad rápida
                   td Difícil escalar
                   td Productos innovadores

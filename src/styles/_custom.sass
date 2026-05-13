@@ -64,7 +64,7 @@
   background-size: cover
 
 .bloque-texto-gg__img2
-  width: 25%
+  width: 35%
   position: absolute
   top: 0
   left: 0
@@ -82,7 +82,7 @@
   width: 75%
 .bloque-texto-gg__texto2
   position: relative
-  width: 75%
+  width: 65%
   
 .bloque-texto-gg--inverso
   justify-content: flex-start
@@ -190,9 +190,19 @@
 
 .BG02
   background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-image: url("../assets/curso/temas/tema2/imgfondo_2.png")
   background-repeat: no-repeat
   background-position: center
-  margin-inline: -2.7rem !important
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG03
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-image: url("../assets/curso/temas/tema2/imgfondo_3.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
@@ -205,6 +215,23 @@
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
+
+.BGDEGRA4
+  background: linear-gradient(180deg, #fff, #D7F9F7, #D4F9FE, #fff)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG04
+  background-image: url("../assets/curso/temas/tema3/imgfondoslyf.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important 
 
 .titulo
   background-color:#FFE2BC
@@ -253,6 +280,7 @@
 .slyder__btn
   background-color: #AE0000
   color: white
+
 .fondo-slyder
   background-image: url("../assets/curso/temas/tema3/imgfondoslyf.png") !important
   background-repeat: no-repeat
@@ -284,14 +312,14 @@
   &.crd--grayGrad
     padding: 2rem
     height: 100%
-    background-color: #ffb2b2ff
+    background-image: url("../assets/curso/temas/tema5/imgfondotarj.png")
     border-radius: 15px 
     &:hover      
-      background-color: #C9E8F7
+      background-image: url("../assets/curso/temas/tema5/imgfondotarj_1.png")
       h4, p
       .bottomCircle
         &::before
-          background-color: #CFDE90
+          background-color: #19538D
   &.crd--blue
     background-color: #B1DBEA
 
@@ -301,8 +329,9 @@
 
 .bottomCircle
   img
-    max-width: 60%
-    margin: 45px
+    max-width: 40%
+    margin: 11.5% 30%
+
   position: relative
   & > *
     position: relative
@@ -314,7 +343,7 @@
     transform: translate(-50%,-50%)
     width: 170px
     height: 170px
-    background-color: #2F3AE6
+    background-color: #AE0000
     border-radius: 999px
   @media (max-width: 1000px)
     img
@@ -353,6 +382,7 @@
   &::before 
     border-bottom-left-radius: 30px
 
+
 .avatar
   position: absolute
   bottom: 0
@@ -364,3 +394,12 @@
   background-color: #FFEEBC
 .tabla-a.color-acento-contenido thead
   border-color: #FFC928
+
+.tarjeta--azul
+  background-color: #F2E4EF !important
+
+.acordion__activo
+  background-color: #C9E8F7 !important
+
+.fa-computer
+  color: #FFB758
