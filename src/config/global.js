@@ -1,6 +1,7 @@
 export default {
   global: {
-    Name: 'Programación de soluciones de <em>software</em>',
+    Name:
+      'Metodologías de desarrollo y levantamiento de requisitos de <em>software</em>',
     Description:
       'Este componente formativo brinda las bases conceptuales y prácticas para comprender la gestión del desarrollo de <em>software</em> y el levantamiento de requisitos. Aborda metodologías tradicionales y ágiles, tipos de requisitos, técnicas de elicitación y roles del proceso, fortaleciendo el criterio técnico y comunicativo en equipos de desarrollo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
