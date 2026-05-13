@@ -98,7 +98,8 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Focus group como técnica de recopilación de información',
+            titulo:
+              '<em>Focus group</em> como técnica de recopilación de información',
             hash: 't_4_2',
           },
           {
@@ -117,7 +118,7 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Usuarios, actores y stakeholders',
+            titulo: 'Usuarios, actores y <em>stakeholders</em>',
             hash: 't_5_1',
           },
           {
@@ -184,14 +185,14 @@ export default {
         'Rol que desempeña una persona, sistema externo u organización al interactuar con el sistema en desarrollo. Se representa en diagramas de casos de uso de UML como una figura humana con el nombre del rol.',
     },
     {
-      termino: 'Backlog',
+      termino: '<em>Backlog</em>',
       significado:
-        'Lista priorizada y dinámica de todos los requisitos, funcionalidades y mejoras pendientes de un producto de <em>software</em>. En SCRUM es gestionada exclusivamente por el Product Owner.',
+        'Lista priorizada y dinámica de todos los requisitos, funcionalidades y mejoras pendientes de un producto de <em>software</em>. En SCRUM es gestionada exclusivamente por el <em>Product Owner</em>.',
     },
     {
       termino: 'Elicitación',
       significado:
-        'Proceso sistemático de descubrir, extraer y recopilar los requisitos de un sistema a partir de múltiples fuentes (stakeholders, documentos, sistemas existentes), utilizando diversas técnicas de recolección de información.',
+        'Proceso sistemático de descubrir, extraer y recopilar los requisitos de un sistema a partir de múltiples fuentes (<em>stakeholders</em>, documentos, sistemas existentes), utilizando diversas técnicas de recolección de información.',
     },
     {
       termino: 'Requisito funcional',
@@ -204,14 +205,14 @@ export default {
         'Atributo de calidad o restricción que define cómo debe funcionar el sistema (rendimiento, seguridad, usabilidad, disponibilidad, escalabilidad), en contraste con qué debe hacer. Tiene alto impacto en la arquitectura del sistema.',
     },
     {
-      termino: 'Sprint',
+      termino: '<em>Sprint</em>',
       significado:
         'Iteración de duración fija (1 a 4 semanas) en SCRUM, al final de la cual el equipo debe entregar un incremento de <em>software</em> potencialmente desplegable que agrega valor al producto y puede ser mostrado al cliente para obtener retroalimentación.',
     },
     {
       termino: 'Trazabilidad',
       significado:
-        'Capacidad de vincular cada requisito con su origen (stakeholder, documento de negocio o regulación) y con los artefactos de diseño, código y pruebas que lo implementan. Facilita la gestión de cambios y el cumplimiento regulatorio.',
+        'Capacidad de vincular cada requisito con su origen (<em>stakeholder</em>, documento de negocio o regulación) y con los artefactos de diseño, código y pruebas que lo implementan. Facilita la gestión de cambios y el cumplimiento regulatorio.',
     },
   ],
   referencias: [
@@ -271,14 +272,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Diana Rocío Possos Beltrán',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -286,9 +288,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Manuel Felipe Echavarria Orozco ',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -296,19 +303,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Veimar Celis Melendez',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Ernesto Navarro Jaimes ',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -316,14 +323,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
