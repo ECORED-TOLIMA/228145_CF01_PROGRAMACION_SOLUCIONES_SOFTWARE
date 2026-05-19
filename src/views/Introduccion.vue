@@ -36,13 +36,6 @@
         figure
           img(src="@/assets/curso/temas/intro/img3.png", alt="En la síntesis se presenta un mapa conceptual que organiza de forma progresiva los elementos clave del desarrollo de #[i software] centrado en los requisitos. Inicia con las metodologías de desarrollo, distinguiendo entre enfoques ágiles y tradicionales, y continúa con los fundamentos de los requisitos de #[i software], abordando su concepto, tipos y características. Posteriormente, se incorpora la elicitación de requisitos y las técnicas de recolección de información, como la interacción con usuarios, el análisis de documentos, los focus group y los talleres de requisitos. Finalmente, el mapa integra los roles involucrados en el levantamiento y desarrollo de requisitos, destacando la participación coordinada de usuarios, cliente líder, Product Owner (PO), equipo de desarrollo y analista en la construcción de soluciones alineadas con las necesidades del negocio.")
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
-  
 </template>
 
 <script>

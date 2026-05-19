@@ -263,19 +263,23 @@
             li
               i.fas.fa-computer(style="color: #FFB758;")
               p.mb-0 #[b Rigidez frente al cambio] 
-              p.mb-0 La incorporación de modificaciones en fases avanzadas del proyecto resulta especialmente costosa, pudiendo implicar un esfuerzo entre 10 y 100 veces mayor que si los cambios se hubieran identificado durante la fase de análisis.
+                br
+                | La incorporación de modificaciones en fases avanzadas del proyecto resulta especialmente costosa, pudiendo implicar un esfuerzo entre 10 y 100 veces mayor que si los cambios se hubieran identificado durante la fase de análisis.
             li
               i.fas.fa-computer(style="color: #FFB758;")
               p.mb-0 #[b Entrega tardía de #[i software] funcional] 
-              p.mb-0 El producto operativo se entrega únicamente al final del proyecto, lo que genera largos periodos sin retroalimentación real por parte del usuario y aumenta el riesgo de que el resultado final no satisfaga las necesidades reales.
+                br
+                | El producto operativo se entrega únicamente al final del proyecto, lo que genera largos periodos sin retroalimentación real por parte del usuario y aumenta el riesgo de que el resultado final no satisfaga las necesidades reales.
             li
               i.fas.fa-computer(style="color: #FFB758;")
               p.mb-0 #[b Detección tardía de problemas de integración] 
-              p.mb-0 Los errores y conflictos entre componentes suelen identificarse en etapas finales, cuando su corrección implica mayores costos y complejidad técnica.
+                br
+                | Los errores y conflictos entre componentes suelen identificarse en etapas finales, cuando su corrección implica mayores costos y complejidad técnica.
             li
               i.fas.fa-computer(style="color: #FFB758;")
-              p.mb-0 #[b Alta carga documental y burocrática] 
-              p.mb-0 La extensa documentación requerida puede ralentizar el proceso de desarrollo y afectar la motivación del equipo técnico, especialmente en proyectos de mediana escala donde dicha carga no aporta un valor proporcional.
+              p.mb-0 #[b Alta carga documental y burocrática]
+                br
+                | La extensa documentación requerida puede ralentizar el proceso de desarrollo y afectar la motivación del equipo técnico, especialmente en proyectos de mediana escala donde dicha carga no aporta un valor proporcional.
         .bgf3.p-3
           .row.justify-content-center.align-items-center
             .col-lg-3

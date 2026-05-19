@@ -26,7 +26,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-10
             p El usuario es la persona que interactúa directamente con el sistema de #[i software] para realizar sus tareas cotidianas. Es quien introduce datos, consulta información, genera reportes y toma decisiones apoyado en el sistema. Existen diferentes tipos de usuarios según su nivel de experiencia técnica (novatos, intermedios, expertos), su frecuencia de uso (ocasionales y habituales) y sus objetivos específicos dentro del sistema.
-            p Los usuarios son la fuente más directa de información sobre los requisitos funcionales, pues son quienes mejor conocen los procesos que el sistema debe soportar. Sin embargo, frecuentemente tienen dificultades para articular sus necesidades en términos abstractos; prefieren describirlas mediante ejemplos concretos y casos de uso específicos, por lo que el analista debe facilitar su expresión mediante técnicas adecuadas como el prototipado, los escenarios de uso y el role-playing.
+            p Los usuarios son la fuente más directa de información sobre los requisitos funcionales, pues son quienes mejor conocen los procesos que el sistema debe soportar. Sin embargo, frecuentemente tienen dificultades para articular sus necesidades en términos abstractos; prefieren describirlas mediante ejemplos concretos y casos de uso específicos, por lo que el analista debe facilitar su expresión mediante técnicas adecuadas como el prototipado, los escenarios de uso y el #[i role-playing].
             .p-4.bgf3
               p.text-white Ejemplo:
               p.mb-0.text-white El usuario percibe confianza en la marca al saber que sus datos son tratados de manera ética, utilizados únicamente para los fines informados y gestionados con transparencia, lo que le brinda seguridad y control sobre su información.
@@ -160,8 +160,8 @@
         p Para desempeñar este rol efectivamente, el cliente líder debe reunir varias condiciones: conocimiento profundo y actualizado de los procesos del negocio, capacidad para comunicarse tanto con usuarios no técnicos como con el equipo de desarrollo, disponibilidad real de tiempo para participar en el proyecto (lo que implica un acuerdo formal con su jefatura), autoridad reconocida por sus colegas usuarios, y habilidades para gestionar conflictos y llegar a consensos cuando existen intereses divergentes entre grupos de usuarios.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Product Owner (dueño del producto)
-    p.mb-4 El Product Owner (PO) es un rol propio de los frameworks ágiles, especialmente de SCRUM. Es el responsable de maximizar el valor del producto y de gestionar el #[i product backlog] (lista priorizada de requisitos). Actúa como el representante del negocio dentro del equipo de desarrollo, tomando decisiones sobre qué funcionalidades se construirán, en qué orden y con qué criterios de aceptación. Es el único que puede agregar, modificar o re-priorizar ítems del product backlog.
+      h5 #[i Product Owner] (dueño del producto)
+    p.mb-4 El #[i Product Owner] (PO) es un rol propio de los frameworks ágiles, especialmente de SCRUM. Es el responsable de maximizar el valor del producto y de gestionar el #[i product backlog] (lista priorizada de requisitos). Actúa como el representante del negocio dentro del equipo de desarrollo, tomando decisiones sobre qué funcionalidades se construirán, en qué orden y con qué criterios de aceptación. Es el único que puede agregar, modificar o re-priorizar ítems del #[i product backlog].
     p.mb-4 El PO tiene tres responsabilidades fundamentales que el Scrum Guide define con precisión: 
     
     .row.justify-content-center.mb-4
@@ -193,7 +193,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Equipo de desarrollo
-    p.mb-4 El equipo de desarrollo está compuesto por los profesionales responsables de construir el sistema: programadores, diseñadores UX/UI, arquitectos de software e ingenieros de pruebas (QA). En los procesos ágiles, el equipo es multifuncional y autoorganizado: sus miembros poseen colectivamente todas las habilidades necesarias para construir el producto y deciden internamente cómo organizar su trabajo para alcanzar los objetivos de cada sprint sin supervisión directa de un gerente de proyecto.
+    p.mb-4 El equipo de desarrollo está compuesto por los profesionales responsables de construir el sistema: programadores, diseñadores UX/UI, arquitectos de #[i software] e ingenieros de pruebas (QA). En los procesos ágiles, el equipo es multifuncional y autoorganizado: sus miembros poseen colectivamente todas las habilidades necesarias para construir el producto y deciden internamente cómo organizar su trabajo para alcanzar los objetivos de cada sprint sin supervisión directa de un gerente de proyecto.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-gg.bgf5.p-2.p-sm-4.p-md-3
@@ -201,7 +201,7 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img18.png')})`}"
           )
           .bloque-texto-gg__texto2.p-2
-            p.mb-0 El rol del equipo de desarrollo en el levantamiento de requisitos es activo, no pasivo. Los desarrolladores participan en las sesiones de refinamiento del backlog, hacen preguntas que clarifican los requisitos antes de comenzar la implementación, identifican dependencias técnicas y ambigüedades que el analista puede no haber detectado, estiman el esfuerzo de implementación de cada historia de usuario, y proponen soluciones técnicas alternativas cuando los requisitos originales presentan complejidad excesiva o riesgos técnicos significativos que el cliente no había anticipado.
+            p.mb-0 El rol del equipo de desarrollo en el levantamiento de requisitos es activo, no pasivo. Los desarrolladores participan en las sesiones de refinamiento del #[i backlog], hacen preguntas que clarifican los requisitos antes de comenzar la implementación, identifican dependencias técnicas y ambigüedades que el analista puede no haber detectado, estiman el esfuerzo de implementación de cada historia de usuario, y proponen soluciones técnicas alternativas cuando los requisitos originales presentan complejidad excesiva o riesgos técnicos significativos que el cliente no había anticipado.
 
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
@@ -243,9 +243,9 @@
                   td Alta (en nombre de usuarios).
                   td Conocimiento del negocio.
                 tr
-                  td Product Owner
+                  td #[i Product Owner]
                   td Proyectos ágiles (SCRUM).
-                  td Gestionar y priorizar product backlog.
+                  td Gestionar y priorizar #[i product backlog].
                   td Total sobre el producto.
                   td Visión de producto y negocio.
                 tr
@@ -270,16 +270,16 @@
       .col-lg-10
         p.mb-4 De igual manera, la siguiente imagen ilustra la matriz RACI aplicada a las cinco actividades principales del proceso de levantamiento de requisitos, mostrando cómo se distribuyen las responsabilidades entre los roles. Esta herramienta es indispensable para proyectos con múltiples #[i stakeholders] y evita ambigüedades sobre quién toma las decisiones en cada etapa:
         .titulo-sexto.color-acento-contenido
-          h5 Figure 9.
+          h5 Figura 9.
           span Matriz RACI para las actividades de levantamiento de requisitos
         .d-none.d-lg-block.mb-4
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img20.svg', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema5/img20.svg', alt='Figura 9 que presenta una matriz RACI aplicada a las actividades de levantamiento de requisitos, en la cual se identifican los roles de analista, cliente líder, Product Owner, equipo de desarrollo y directivo; además, se especifica su nivel de participación como responsables, aprobadores, consultados o informados en cada etapa del proceso, desde la planificación de la elicitación hasta la gestión de cambios y la priorización del backlog.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema5/img20_1.svg', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema5/img20_1.svg', alt='Figura 9 que presenta una matriz RACI aplicada a las actividades de levantamiento de requisitos, en la cual se identifican los roles de analista, cliente líder, Product Owner, equipo de desarrollo y directivo; además, se especifica su nivel de participación como responsables, aprobadores, consultados o informados en cada etapa del proceso, desde la planificación de la elicitación hasta la gestión de cambios y la priorización del backlog.')
         
 </template>
 

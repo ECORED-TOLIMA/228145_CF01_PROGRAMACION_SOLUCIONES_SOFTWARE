@@ -78,7 +78,7 @@
       .col-lg-8
         p Desde una perspectiva práctica, un requisito es cualquier característica observable o medible que el sistema debe poseer para ser aceptado por el cliente. Los requisitos representan un contrato entre el cliente y el equipo de desarrollo: definen qué se construirá, bajo qué condiciones operará y qué calidad tendrá el producto final. Su correcta definición es una precondición para que el resto del proceso de desarrollo tenga éxito.
         .p-4.bgf5
-          p.mb-0 Los requisitos pueden expresarse en lenguaje natural, mediante diagramas UML, modelos formales o una combinación de estos. La clave es que sean comprensibles tanto para los #[i stakeholders] del negocio como para el equipo técnico. Un requisito bien expresado guía al diseñador, al programador y al tester, creando un hilo de trazabilidad que conecta la necesidad del negocio con el código del sistema y con las pruebas que verifican su correcto funcionamiento.
+          p.mb-0 Los requisitos pueden expresarse en lenguaje natural, mediante diagramas UML, modelos formales o una combinación de estos. La clave es que sean comprensibles tanto para los #[i stakeholders] del negocio como para el equipo técnico. Un requisito bien expresado guía al diseñador, al programador y al #[i tester], creando un hilo de trazabilidad que conecta la necesidad del negocio con el código del sistema y con las pruebas que verifican su correcto funcionamiento.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Propiedades de un buen requisito

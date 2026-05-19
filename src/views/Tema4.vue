@@ -77,7 +77,7 @@
               img(src='@/assets/curso/temas/tema4/img6.svg', alt='Texto que describa la imagen')
           
         h5.text-center Análisis de tareas
-        p La producción de documentación detallada facilita el mantenimiento del sistema a lo largo del tiempo, especialmente cuando el equipo de desarrollo original ya no se encuentra disponible.
+        p Complementa la observación al descomponer las actividades del usuario en pasos elementales, permitiendo identificar qué hace el usuario, en qué orden, qué decisiones toma y qué información necesita en cada etapa del proceso. Esta técnica es fundamental para el diseño de interfaces, la definición de flujos de trabajo y la identificación de puntos críticos del sistema.
       .col-md.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -94,7 +94,7 @@
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           p Su principal ventaja es la capacidad de llegar a un gran número de personas en poco tiempo y con bajo costo. El diseño de un cuestionario efectivo requiere definir claramente los objetivos, formular preguntas claras y no ambiguas, seleccionar adecuadamente el tipo de preguntas, ordenar los ítems de forma lógica y realizar una prueba piloto antes de su aplicación masiva.
-          p.mb-0 Los tipos de preguntas más utilizados incluyen preguntas cerradas, abiertas, escalas Likert, preguntas de ranking y selección múltiple.
+          p.mb-0 Los tipos de preguntas más utilizados incluyen preguntas cerradas, abiertas, escalas Likert, preguntas de #[i ranking] y selección múltiple.
         p.mb-4 La siguiente imagen esquemática, ilustra el ciclo completo de diseño y aplicación de un cuestionario para el levantamiento de requisitos. Cada etapa del ciclo es indispensable: omitir la prueba piloto, por ejemplo, puede resultar en datos de baja calidad que no sirven para tomar decisiones sobre los requisitos del sistema:
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
@@ -135,8 +135,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+            iframe(width="1061" height="597" src="https://www.youtube.com/embed/K1exKJ0LT-s" title="Proceso de implementación focus group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p La siguiente tabla compara el #[i focus group] con la entrevista individual, las dos técnicas cualitativas más utilizadas en el levantamiento de requisitos. Esta comparación ayuda al analista a decidir cuál técnica es más apropiada según los objetivos específicos de cada fase del proceso de elicitación:
@@ -348,7 +348,7 @@
             .col-lg-10
               .titulo-sexto.color-acento-contenido
                 h5 Figura 6.
-                span User Story Mapping
+                i User Story Mapping
               .d-none.d-lg-block.mb-4
                 ImagenInfografica.color-acento-botones
                   template(v-slot:imagen)

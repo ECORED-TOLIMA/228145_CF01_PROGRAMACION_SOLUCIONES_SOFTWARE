@@ -18,7 +18,7 @@ export default {
   data: () => ({
     cuestionario: {
       tema:
-        'Metodologías de desarrollo y levantamiento de requisitos de software',
+        'Metodologías de desarrollo y levantamiento de requisitos de <em>software</em>',
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> evaluar la capacidad del aprendiz para aplicar las técnicas de elicitación y recolección de información aprendidas en el componente formativo CF01, identificando correctamente los tipos de requisitos, los roles involucrados y la metodología de desarrollo más apropiada para un caso de negocio real asignado por el instructor.',
@@ -105,7 +105,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Qué porcentaje de los fallos en proyectos de software están relacionados con problemas en la definición y gestión de requisitos, según el Standish Group?',
+            '¿Qué porcentaje de los fallos en proyectos de <em>software</em> están relacionados con problemas en la definición y gestión de requisitos, según el Standish Group?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -446,7 +446,7 @@ export default {
         {
           id: 17,
           texto:
-            '¿Qué papel cumplen los requisitos no funcionales dentro del diseño de un sistema de software?',
+            '¿Qué papel cumplen los requisitos no funcionales dentro del diseño de un sistema de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -490,7 +490,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Se prioriza el software funcionando sobre la documentación exhaustiva, manteniendo solo la necesaria.',
+                'Se prioriza el <em>software</em> funcionando sobre la documentación exhaustiva, manteniendo solo la necesaria.',
               esCorrecta: true,
             },
             {
@@ -502,7 +502,7 @@ export default {
             {
               id: 'c',
               texto:
-                'La documentación no se realiza en ningún momento del desarrollo del software.',
+                'La documentación no se realiza en ningún momento del desarrollo del <em>software</em>.',
               esCorrecta: false,
             },
             {
@@ -513,14 +513,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Las metodologías ágiles valoran el software funcionando por encima de la documentación exhaustiva, sin eliminar la documentación necesaria.',
+            '¡Excelente trabajo! Las metodologías ágiles valoran el <em>software</em> funcionando por encima de la documentación exhaustiva, sin eliminar la documentación necesaria.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
           texto:
-            '¿Por qué el análisis de documentos es especialmente útil al inicio de un proyecto de software?',
+            '¿Por qué el análisis de documentos es especialmente útil al inicio de un proyecto de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
