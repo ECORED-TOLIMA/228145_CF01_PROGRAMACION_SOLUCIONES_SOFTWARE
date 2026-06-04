@@ -1,28 +1,29 @@
 .banner-principal-decorativo
   &-1
-    width: 60px
-    animation: scale 2.8s ease-in-out infinite alternate
+    animation: engrane 4s linear infinite  // Cambiado a rotación continua
     position: absolute
-    bottom: 78%
+    top: 15%
     right: 90%
-    z-index: -1
+    transform-origin: center // Asegura que gire sobre su propio centro
   &-2
-    width: 130px
-    animation: float2 2.8s ease-in-out infinite alternate
-    position: absolute    
-    top: 14%
-    right: 20%
-  &-3
-    width: 130px
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 66%
-    right: 80%
+    top: 5%
+    right: 5%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 62%
+    right: 70%
  
 .banner-principal__img
   z-index: 1
-
-
+// Animación para giro
+@keyframes engrane
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
 
 @-webkit-keyframes rotation 
   from 
@@ -60,7 +61,21 @@
       background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
     @media (max-width: $bp-max-xs)
       background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+      
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
 
@@ -73,6 +88,9 @@
 .barra-avance__boton--regresar span
   color: #FFFFFF !important
 
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black !important
 //BLOQUE TEXTO G
 .bloque-texto-ggg-imagen.color-primario
   background-color: #D5F4F8
