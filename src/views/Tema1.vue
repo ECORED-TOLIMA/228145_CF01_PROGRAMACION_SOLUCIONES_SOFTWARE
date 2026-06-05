@@ -304,20 +304,24 @@
             ul.lista-ul
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                p.mb-0 #[b Dificultad en la estimación del costo total] <br>
-                p.mb-0 Al definirse el alcance de manera progresiva, la estimación precisa del costo total del proyecto resulta compleja, lo que puede generar tensiones en contratos de precio fijo y dificultar la planificación presupuestal a largo plazo.
+                p.mb-0 #[b Dificultad en la estimación del costo total] 
+                  br
+                  | Al definirse el alcance de manera progresiva, la estimación precisa del costo total del proyecto resulta compleja, lo que puede generar tensiones en contratos de precio fijo y dificultar la planificación presupuestal a largo plazo.
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                p.mb-0 #[b Menor formalización documental] <br>
-                p.mb-0 La reducción de documentación formal puede complicar el mantenimiento del sistema y la transferencia de conocimiento cuando se producen cambios en el equipo de trabajo.
+                p.mb-0  #[b Menor formalización documental] 
+                  br
+                  | La reducción de documentación formal puede complicar el mantenimiento del sistema y la transferencia de conocimiento cuando se producen cambios en el equipo de trabajo.
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                p.mb-0 #[b Alta dependencia del compromiso del cliente] <br>
-                p.mb-0 Los enfoques ágiles requieren una participación continua y activa del cliente, lo cual no siempre es viable en organizaciones con alta carga operativa o disponibilidad limitada.
+                p.mb-0  #[b Alta dependencia del compromiso del cliente] 
+                  br
+                  | Los enfoques ágiles requieren una participación continua y activa del cliente, lo cual no siempre es viable en organizaciones con alta carga operativa o disponibilidad limitada.
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                p.mb-0 #[b Desafíos de escalabilidad] <br>
-                p.mb-0 La aplicación de metodologías ágiles en proyectos de gran escala, con equipos numerosos y distribuidos geográficamente, demanda el uso de #[i frameworks] adicionales como SAFe o LeSS, los cuales implican una curva de aprendizaje y costos de implementación significativos.
+                p.mb-0  #[b Desafíos de escalabilidad] 
+                  br
+                  | La aplicación de metodologías ágiles en proyectos de gran escala, con equipos numerosos y distribuidos geográficamente, demanda el uso de #[i frameworks] adicionales como SAFe o LeSS, los cuales implican una curva de aprendizaje y costos de implementación significativos.
         .bgf3.p-3.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-3

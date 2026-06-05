@@ -179,7 +179,7 @@
                 tr
                   td HU-01
                   td Como usuario registrado, quiero iniciar sesión con email y contraseña para acceder al sistema de forma segura.
-                  td El sistema valida credenciales en menos de 2s. Bloquea la cuenta tras 5 intentos fallidos. Muestra mensaje de error específico.
+                  td El sistema valida credenciales en menos de 2 segundos. Bloquea la cuenta tras 5 intentos fallidos. Muestra mensaje de error específico.
                   td Alta
                 tr
                   td HU-02
