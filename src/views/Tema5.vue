@@ -49,7 +49,7 @@
           .col-lg-10
             p El término #[i stakeholder] (parte interesada) hace referencia a cualquier persona, grupo u organización que tiene un interés en el sistema, ya sea porque se beneficia de él, lo financia, lo desarrolla, lo regula o se ve afectado por su implementación. Los #[i stakeholders] no necesariamente interactúan directamente con el sistema; su interés puede ser de carácter económico, legal, operativo o estratégico.
             .p-4.bgf3.mb-4
-              p.text-white Ejemplo:
+              p.text-white Ejemplos de #[i stakeholders] en un proyecto de #[i software] empresarial:
               p.mb-0.text-white La dirección general (define objetivos estratégicos y aprueba el presupuesto), el departamento legal (impone restricciones de cumplimiento normativo), los usuarios finales (utilizarán el sistema diariamente), los administradores de sistemas (responsables del despliegue y mantenimiento), los reguladores externos (definen restricciones legales y normativas como la Ley 1581 de datos personales en Colombia) y los proveedores cuya integración puede ser necesaria.
             
           .col-lg-2.d-none.d-lg-block
@@ -104,7 +104,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img6.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En este contexto, roles como el cliente líder, e dueño del producto, el equipo de desarrollo y el analista de requisitos cumplen funciones complementarias que permiten asegurar una comunicación fluida entre los usuarios, el negocio y el equipo técnico. Cada uno aporta una perspectiva distinta al proceso de elicitación, validación y priorización de requisitos, contribuyendo a reducir ambigüedades, gestionar expectativas y alinear el producto con los objetivos estratégicos de la organización.
+        p.mb-0 En este contexto, roles como el cliente líder, el dueño del producto, el equipo de desarrollo y el analista de requisitos cumplen funciones complementarias que permiten asegurar una comunicación fluida entre los usuarios, el negocio y el equipo técnico. Cada uno aporta una perspectiva distinta al proceso de elicitación, validación y priorización de requisitos, contribuyendo a reducir ambigüedades, gestionar expectativas y alinear el producto con los objetivos estratégicos de la organización.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Comprender las responsabilidades, autoridad y competencias de cada uno de estos roles resulta fundamental para evitar solapamientos, conflictos de decisión o vacíos de información que puedan afectar la calidad del producto. A continuación, se describen de manera detallada las características y funciones de cada uno de estos actores dentro del proceso de desarrollo:
@@ -161,7 +161,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 #[i Product Owner] (dueño del producto)
-    p.mb-4 El #[i Product Owner] (PO) es un rol propio de los frameworks ágiles, especialmente de SCRUM. Es el responsable de maximizar el valor del producto y de gestionar el #[i product backlog] (lista priorizada de requisitos). Actúa como el representante del negocio dentro del equipo de desarrollo, tomando decisiones sobre qué funcionalidades se construirán, en qué orden y con qué criterios de aceptación. Es el único que puede agregar, modificar o re-priorizar ítems del #[i product backlog].
+    p.mb-4 El #[i Product Owner] (PO) es un rol propio de los frameworks ágiles, especialmente de SCRUM. Es el responsable de maximizar el valor del producto y de gestionar el #[i product backlog] (lista priorizada de requisitos). Actúa como el representante del negocio dentro del equipo de desarrollo, tomando decisiones sobre qué funcionalidades se construirán, en qué orden y con qué criterios de aceptación. Es el único que puede agregar, modificar o repriorizar ítems del #[i product backlog].
     p.mb-4 El PO tiene tres responsabilidades fundamentales que el Scrum Guide define con precisión: 
     
     .row.justify-content-center.mb-4

@@ -84,34 +84,35 @@
       h5 Propiedades de un buen requisito
     p.mb-4 Un requisito de calidad debe cumplir un conjunto de propiedades bien establecidas en la literatura de la ingeniería de #[i software]. El estándar IEEE 830 (práctica recomendada para especificaciones de requisitos de #[i software]) y su sucesor ISO/IEC/IEEE 29148 definen estas propiedades de manera formal. Su importancia radica en que cada propiedad que falta en un requisito se convierte en una fuente potencial de malentendidos, retrabajo o conflictos entre el cliente y el equipo de desarrollo. A continuación, se describen las ocho propiedades fundamentales:
     .row.justify-content-center.mb-4
+     
       .col-lg-10
         .d-none.d-lg-block.mb-4
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema2/img8.svg', alt='Infografía de matriz RACI')
-            .tarjeta.tarjeta.bt01.p-3(x="19.7%" y="54%" numero="+")
-              p El requisito refleja con precisión la necesidad real del stakeholder, sin distorsiones, suposiciones ni interpretaciones personales del analista. Un requisito incorrecto lleva a implementar funcionalidades que el usuario no necesita.
+            .tarjeta.bgf7.p-3(x="19.7%" y="54%" numero="+")
+                p El requisito refleja con precisión la necesidad real del stakeholder, sin distorsiones, suposiciones ni interpretaciones personales del analista. Un requisito incorrecto lleva a implementar funcionalidades que el usuario no necesita.
 
-            .tarjeta.tarjeta.bt01.p-3(x="27.3%" y="47%" numero="+")
+            .tarjeta.bgf7.p-3(x="27.3%" y="47%" numero="+")
               p Incluye toda la información necesaria para su comprensión e implementación sin requerir conocimiento implícito o tácito. Un requisito incompleto obliga al desarrollador a tomar decisiones de negocio que no le corresponden.
             
-            .tarjeta.tarjeta.bt01.p-3(x="36.6%" y="54%" numero="+")
+            .tarjeta.tarjeta.bgf7.p-3(x="36.6%" y="54%" numero="+")
               p No contradice ni entra en conflicto con otros requisitos del sistema. Los conflictos entre requisitos son frecuentes cuando provienen de diferentes grupos de #[i stakeholders] y deben resolverse con el cliente antes de la implementación.
 
-            .tarjeta.tarjeta.bt01.p-3(x="44.5%" y="47%" numero="+")
+            .tarjeta.tarjeta.bgf7.p-3(x="44.5%" y="47%" numero="+")
               p Tiene una única interpretación posible para todos los involucrados en el proyecto, independientemente de su perfil técnico o de negocio. Las palabras como 'rápido', 'fácil', 'robusto' o 'amigable' son inherentemente ambiguas y deben cuantificarse.
             
-            .tarjeta.tarjeta.bt01.p-3(x="54%" y="54%" numero="+")
+            .tarjeta.tarjeta.bgf7.p-3(x="54%" y="54%" numero="+")
               p Puede ser probado mediante criterios de aceptación concretos y medibles para confirmar que el sistema lo cumple. Un requisito que no puede probarse no puede garantizarse.
             
-            .tarjeta.tarjeta.bt01.p-3(x="61.7%" y="47%" numero="+")
+            .tarjeta.tarjeta.bgf7.p-3(x="61.7%" y="47%" numero="+")
               p Puede vincularse claramente a su origen (stakeholder específico, documento de negocio o regulación) y a los artefactos de diseño, código y pruebas que lo implementan. La trazabilidad es fundamental para gestionar el impacto de los cambios.
             
-            .tarjeta.tarjeta.bt01.p-3(x="71.7%" y="54%" numero="+")
+            .tarjeta.tarjeta.bgf7.p-3(x="71.7%" y="54%" numero="+")
               p Puede ser implementado dentro de las restricciones técnicas, económicas y temporales del proyecto. Requisitos técnicamente imposibles o económicamente inviables deben identificarse tempranamente y renegociarse con el cliente.
             
-            .tarjeta.tarjeta.bt01.p-3(x="79.3%" y="47%" numero="+")
+            .tarjeta.tarjeta.bgf7.p-3(x="79.3%" y="47%" numero="+")
               p Puede ser ordenado según su importancia relativa para el negocio, permitiendo decisiones informadas de alcance cuando el presupuesto o el tiempo no alcanza para implementar todo lo deseado.
         .d-block.d-lg-none
           figure
@@ -257,7 +258,7 @@
                 tr
                   td No funcional – rendimiento
                   td Qué tan rápido responde.
-                  td Tiempo respuesta < 2 seg. / 500 usuarios.
+                  td Tiempo de respuesta < 2 seg. / 500 usuarios.
                   td Arquitecto / usuario.
                 tr
                   td No funcional – seguridad

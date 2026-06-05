@@ -99,7 +99,7 @@
               p Propuesto por Winston Royce en 1970, es el representante paradigmático de este enfoque. Sus fases son secuenciales y dependientes: análisis de requisitos, diseño del sistema, implementación, pruebas, despliegue y mantenimiento. La premisa central es que los requisitos son conocidos, estables y completamente definibles desde el inicio, lo que permite planificar con precisión el alcance, el costo y el tiempo total del proyecto.
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/img9.png', alt='Gráfico ilustrativo de uso de programa')
+                img(src='@/assets/curso/temas/tema1/img9.png',style="width: 95%; height: auto;", alt='Gráfico ilustrativo de uso de programa')
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2.order-lg-1
               h4 Modelo en espiral
@@ -147,7 +147,7 @@
                 p.text-center Equipo multifuncional y autoorganizado. 
     .bloque-texto-gg.bloque-texto-gg--inverso.bgf2.mb-4
       .bloque-texto-gg__texto.p-4
-        p Además de lo anterior, este marco de trabajo incorpora cuatro ceremonias —Sprint planning, Daily scrum, Sprint review y Sprint retrospective— que garantizan la transparencia del proceso, la inspección continua y la adaptación permanente al cambio. De manera complementaria, Extreme Programming (XP) pone un énfasis particular en las buenas prácticas técnicas, tales como el desarrollo guiado por pruebas (TDD), la programación en pareja y la integración continua, con el fin de mejorar la calidad del #[i software]. Por su parte, Kanban, adaptado del sistema de producción Toyota, se enfoca en la gestión del flujo de trabajo mediante tableros visuales y límites al trabajo en progreso (WIP), lo que permite identificar y eliminar cuellos de botella. En conjunto, estas metodologías ágiles no son excluyentes, sino que pueden combinarse estratégicamente para aprovechar sus complementariedades según las necesidades del proyecto.
+        p Además de lo anterior, este marco de trabajo incorpora cuatro ceremonias —Sprint Planning, Daily Scrum, Sprint Review y Sprint Retrospective— que garantizan la transparencia del proceso, la inspección continua y la adaptación permanente al cambio. De manera complementaria, Extreme Programming (XP) pone un énfasis particular en las buenas prácticas técnicas, tales como el desarrollo guiado por pruebas (TDD), la programación en pareja y la integración continua, con el fin de mejorar la calidad del #[i software]. Por su parte, Kanban, adaptado del sistema de producción Toyota, se enfoca en la gestión del flujo de trabajo mediante tableros visuales y límites al trabajo en progreso (WIP), lo que permite identificar y eliminar cuellos de botella. En conjunto, estas metodologías ágiles no son excluyentes, sino que pueden combinarse estratégicamente para aprovechar sus complementariedades según las necesidades del proyecto.
       .bloque-texto-gg__img(
       :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img15.png')})`}"
       )      
@@ -304,20 +304,20 @@
             ul.lista-ul
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                | #[b Dificultad en la estimación del costo total] <br>
-                | Al definirse el alcance de manera progresiva, la estimación precisa del costo total del proyecto resulta compleja, lo que puede generar tensiones en contratos de precio fijo y dificultar la planificación presupuestal a largo plazo.
+                p.mb-0 #[b Dificultad en la estimación del costo total] <br>
+                p.mb-0 Al definirse el alcance de manera progresiva, la estimación precisa del costo total del proyecto resulta compleja, lo que puede generar tensiones en contratos de precio fijo y dificultar la planificación presupuestal a largo plazo.
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                | #[b Menor formalización documental] <br>
-                | La reducción de documentación formal puede complicar el mantenimiento del sistema y la transferencia de conocimiento cuando se producen cambios en el equipo de trabajo.
+                p.mb-0 #[b Menor formalización documental] <br>
+                p.mb-0 La reducción de documentación formal puede complicar el mantenimiento del sistema y la transferencia de conocimiento cuando se producen cambios en el equipo de trabajo.
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                | #[b Alta dependencia del compromiso del cliente] <br>
-                | Los enfoques ágiles requieren una participación continua y activa del cliente, lo cual no siempre es viable en organizaciones con alta carga operativa o disponibilidad limitada.
+                p.mb-0 #[b Alta dependencia del compromiso del cliente] <br>
+                p.mb-0 Los enfoques ágiles requieren una participación continua y activa del cliente, lo cual no siempre es viable en organizaciones con alta carga operativa o disponibilidad limitada.
               li
                 i.fas.fa-computer(style="color: #FFB758;")
-                | #[b Desafíos de escalabilidad] <br>
-                | La aplicación de metodologías ágiles en proyectos de gran escala, con equipos numerosos y distribuidos geográficamente, demanda el uso de #[i frameworks] adicionales como SAFe o LeSS, los cuales implican una curva de aprendizaje y costos de implementación significativos.
+                p.mb-0 #[b Desafíos de escalabilidad] <br>
+                p.mb-0 La aplicación de metodologías ágiles en proyectos de gran escala, con equipos numerosos y distribuidos geográficamente, demanda el uso de #[i frameworks] adicionales como SAFe o LeSS, los cuales implican una curva de aprendizaje y costos de implementación significativos.
         .bgf3.p-3.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-3

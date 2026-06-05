@@ -121,7 +121,7 @@
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 #[i Focus group] como técnica de recopilación de información
-    p.mb-4 El #[i focus group], también conocido como grupo focal, es una técnica de investigación cualitativa que reúne a un grupo pequeño de participantes (generalmente 6 a 12 personas con perfil homogéneo) para discutir un tema específico bajo la guía de un moderador especializado. En el levantamiento de requisitos, el #[i focus group] permite explorar las opiniones, percepciones, necesidades y expectativas de un grupo representativo de usuarios potenciales del sistema de manera eficiente y económica.
+    p.mb-4 El #[i focus group], también conocido como grupo focal, es una técnica de investigación cualitativa que reúne a un grupo pequeño de participantes (generalmente de 6 a 12 personas con perfil homogéneo) para discutir un tema específico bajo la guía de un moderador especializado. En el levantamiento de requisitos, el #[i focus group] permite explorar las opiniones, percepciones, necesidades y expectativas de un grupo representativo de usuarios potenciales del sistema de manera eficiente y económica.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img10.png')})`}"
@@ -130,7 +130,7 @@
         p.mb-0 A diferencia de la entrevista individual, el #[i focus group] aprovecha la dinámica de grupo: las ideas de un participante estimulan nuevas perspectivas en los demás, generando una comprensión más rica y compleja del problema que la que se obtendría con entrevistas individuales por separado. Sin embargo, también implica riesgos como el pensamiento de grupo (groupthink), donde la presión social puede inhibir que algunos participantes expresen opiniones contrarias a la mayoría, especialmente si hay diferencias jerárquicas entre los participantes.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p.text-center.mb-0 Conociendo el contexto del #[i focus group], es importante que acceda al siguiente video, donde se explican las etapas que se debe llevar a cabo para una adecuada implementación:
+        p.text-center.mb-0 Conociendo el contexto del #[i focus group], es importante que acceda al siguiente video, donde se explican las etapas que se deben llevar a cabo para una adecuada implementación:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         figure
@@ -278,7 +278,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Roles en un taller JAD
-    p.mb-4 El éxito del taller depende de la correcta asignación de roles, por ello se deben tener en cuenta los siguientes, los cuales tiene unas responsabilidades y poseen un perfil ideal:
+    p.mb-4 El éxito del taller depende de la correcta asignación de roles, por ello se deben tener en cuenta los siguientes, los cuales tienen unas responsabilidades y poseen un perfil ideal:
     .row.justify-content-center.BG04.p-5
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
@@ -379,7 +379,7 @@
                       img(src='@/assets/curso/temas/tema4/img21_1.svg', alt='Figura 7 que representa un diagrama de afinidad en el que los requisitos se organizan colaborativamente en grupos temáticos —gestión de usuarios, reportes y analytics, y seguridad— a partir de ideas registradas en post-its, facilitando el análisis y la estructuración de la información.')
       .row(titulo="Ejemplo 4. Matriz de priorización")
         .col-lg
-          p Herramienta para evaluar requisitos según criterios de Importancia vs. urgencia (matriz de Eisenhower):
+          p Herramienta para evaluar requisitos según criterios de importancia vs. urgencia (matriz de Eisenhower):
           .row.justify-content-center.align-items-center
             .col-lg-10
               .titulo-sexto.color-acento-contenido
@@ -455,7 +455,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/img23.svg', alt='Texto que describa la imagen')
         h5.text-center Ventajas
-        p ° Educción dramática del tiempo de elicitación (semanas → días).
+        p ° Reducción dramática del tiempo de elicitación (semanas → días).
         p ° Consenso y resolución de conflictos inmediata.
         p ° Mayor compromiso de los #[i stakeholders] con las decisiones tomadas.
         p.mb-0 ° Creatividad potenciada por la interacción grupal.
