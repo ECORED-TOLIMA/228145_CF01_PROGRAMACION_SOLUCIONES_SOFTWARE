@@ -189,7 +189,7 @@
                 tr
                   td HU-03
                   td Como supervisor, quiero ver un reporte de solicitudes pendientes filtradas por prioridad para gestionar la carga de trabajo del equipo.
-                  td El reporte se genera en menos de 5s. Permite filtrar por fecha, prioridad y asignado. Exportable en PDF y Excel.
+                  td El reporte se genera en menos de 5 segundos. Permite filtrar por fecha, prioridad y asignado. Exportable en PDF y Excel.
                   td Media
                 tr
                   td HU-04
