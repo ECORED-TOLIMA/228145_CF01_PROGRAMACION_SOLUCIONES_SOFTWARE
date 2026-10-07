@@ -7,8 +7,8 @@
         span 5
       h1 Roles en el desarrollo y levantamiento de requisitos
     figure
-      img(src='@/assets/curso/temas/tema5/img1.png' alt='AvatarTop')
-    .p-4.bgf5.mb-4
+      img(src='@/assets/curso/temas/tema5/img1.png' alt='')
+    .p-4.bgf2.mb-4
       p.mb-0 El levantamiento de requisitos es un proceso colaborativo que involucra a múltiples actores con roles, responsabilidades y perspectivas distintas. Comprender quiénes son estos actores, qué papel desempeñan y cómo se relacionan entre sí es fundamental para gestionar eficazmente la comunicación y asegurar que todos los puntos de vista relevantes sean considerados en la definición del sistema.
     p.mb-0 Una identificación incompleta de los #[i stakeholders] puede resultar en requisitos que no reflejan las necesidades de todos los grupos afectados, generando resistencia durante la implementación o un sistema que, aunque técnicamente correcto, no satisface las necesidades reales del negocio. El analista debe ser sistemático y exhaustivo en la identificación de todos los actores desde el inicio del proyecto, utilizando técnicas como el análisis de #[i stakeholders] y los mapas de poder-interés.    
     Separador
@@ -17,7 +17,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-8.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/tema5/img2.png' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img2.png' alt='')
       .col-lg-9
         p En todo proyecto de desarrollo de #[i software] coexisten múltiples personas y organizaciones con intereses, expectativas y niveles de influencia distintos sobre el sistema que se va a construir. Comprender con precisión quiénes son, qué rol desempeñan y cómo se diferencian entre sí es una de las primeras responsabilidades del analista de requisitos, ya que de esta comprensión depende la calidad y la representatividad de la información que se recopile durante el proceso de elicitación. Los conceptos de usuario, actor y #[i stakeholder] son frecuentemente confundidos o utilizados como sinónimos en el lenguaje cotidiano de los equipos de desarrollo, pero en la ingeniería de #[i software] tienen significados precisos y complementarios que el profesional debe dominar. Ignorar a alguno de estos actores durante el levantamiento de requisitos es una de las causas más frecuentes de que el producto final no satisfaga a todos los grupos involucrados, generando resistencia en la implementación y costosas revisiones posteriores. Por ello, identificar, clasificar y gestionar adecuadamente a cada uno de estos actores desde el inicio del proyecto es una práctica que el analista debe ejecutar con rigor y sistematicidad.
         p.mb-0 Por lo anterior, se explica cada uno:
@@ -28,33 +28,33 @@
             p El usuario es la persona que interactúa directamente con el sistema de #[i software] para realizar sus tareas cotidianas. Es quien introduce datos, consulta información, genera reportes y toma decisiones apoyado en el sistema. Existen diferentes tipos de usuarios según su nivel de experiencia técnica (novatos, intermedios, expertos), su frecuencia de uso (ocasionales y habituales) y sus objetivos específicos dentro del sistema.
             p Los usuarios son la fuente más directa de información sobre los requisitos funcionales, pues son quienes mejor conocen los procesos que el sistema debe soportar. Sin embargo, frecuentemente tienen dificultades para articular sus necesidades en términos abstractos; prefieren describirlas mediante ejemplos concretos y casos de uso específicos, por lo que el analista debe facilitar su expresión mediante técnicas adecuadas como el prototipado, los escenarios de uso y el #[i role-playing].
             .p-4.bgf3
-              p.text-white Ejemplo:
+              p.text-white #[b Ejemplo:]
               p.mb-0.text-white El usuario percibe confianza en la marca al saber que sus datos son tratados de manera ética, utilizados únicamente para los fines informados y gestionados con transparencia, lo que le brinda seguridad y control sobre su información.
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img3.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img3.svg' alt='')
       .row(titulo="Actor (en el contexto UML)")
         .row.justify-content-center.align-items-center
           .col-lg-10
             p En el contexto de los casos de uso (técnica de especificación UML), un actor representa un rol que una persona, sistema externo u organización desempeña al interactuar con el sistema en desarrollo. A diferencia del usuario (persona específica), el actor es una abstracción: la misma persona puede desempeñar múltiples actores en el sistema, y el mismo actor puede ser desempeñado por múltiples personas con características similares.
             .p-4.bgf3.mb-4
-              p.text-white Ejemplo:
+              p.text-white #[b Ejemplo:]
               p.mb-0.text-white En un sistema de gestión hospitalaria, la persona “María García” puede ser tanto “Médico tratante” (cuando registra diagnósticos y ordena exámenes) como “Usuario del sistema de citas” (cuando agenda sus propias citas de formación). 
             p.mb-0 Los actores se representan en los diagramas de casos de uso como figuras humanas etiquetadas con el nombre del rol, lo que facilita la comprensión visual de las interacciones del sistema.
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img4.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img4.svg' alt='')
       .row(titulo="<em>Stakeholder</em>")
         .row.justify-content-center.align-items-center
           .col-lg-10
             p El término #[i stakeholder] (parte interesada) hace referencia a cualquier persona, grupo u organización que tiene un interés en el sistema, ya sea porque se beneficia de él, lo financia, lo desarrolla, lo regula o se ve afectado por su implementación. Los #[i stakeholders] no necesariamente interactúan directamente con el sistema; su interés puede ser de carácter económico, legal, operativo o estratégico.
             .p-4.bgf3.mb-4
-              p.text-white Ejemplos de #[i stakeholders] en un proyecto de #[i software] empresarial:
+              p.text-white #[b Ejemplos de #[i stakeholders] en un proyecto de #[i software] empresarial:]
               p.mb-0.text-white La dirección general (define objetivos estratégicos y aprueba el presupuesto), el departamento legal (impone restricciones de cumplimiento normativo), los usuarios finales (utilizarán el sistema diariamente), los administradores de sistemas (responsables del despliegue y mantenimiento), los reguladores externos (definen restricciones legales y normativas como la Ley 1581 de datos personales en Colombia) y los proveedores cuya integración puede ser necesaria.
             
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img5.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img5.svg' alt='')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Para complementar los anteriores conceptos, la siguiente tabla aclara las diferencias conceptuales entre los tres términos que con mayor frecuencia generan confusión en los equipos de proyecto: usuario, actor y #[i stakeholder]. Dominar esta distinción es esencial para comunicarse con precisión en el ámbito profesional del desarrollo de #[i software]:
@@ -65,7 +65,7 @@
           span Diferencias entre usuario, actor y #[i stakeholder]
     .row.justify-content-center.align-items-center
       .col-lg-12
-        .tabla-a.color-acento-contenido 
+        .tabla-a.color-acento-contenido.config-tabla  
           .tabla-a  
             table
               thead
@@ -109,94 +109,97 @@
       .col-lg-10
         p Comprender las responsabilidades, autoridad y competencias de cada uno de estos roles resulta fundamental para evitar solapamientos, conflictos de decisión o vacíos de información que puedan afectar la calidad del producto. A continuación, se describen de manera detallada las características y funciones de cada uno de estos actores dentro del proceso de desarrollo:
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Cliente líder
     p El cliente líder (también conocido como representante de usuarios o power user) es un usuario con alto conocimiento del dominio del negocio que actúa como enlace entre el grupo de usuarios y el equipo de desarrollo. Este rol es fundamental en proyectos donde el número de usuarios es grande y no es práctico involucrar a todos directamente en el proceso de elicitación. Su selección debe ser cuidadosa, ya que representa los intereses de sus colegas y sus decisiones vinculan al grupo de usuarios.
     p.mb-4 El cliente líder tiene autoridad para tomar decisiones sobre los requisitos en nombre de su grupo de usuarios. Sus responsabilidades incluyen:
-    .row.justify-content-center.BG04.p-5
-      .col-lg-4.d-none.d-lg-block
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema5/img7.png", alt="alt").img400.m-auto
-      .col-lg-8
-        SlyderF.p-4(columnas="col-lg-6 col-xl-6")
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center
-              .col-5
-                img(src="@/assets/curso/temas/tema5/img8.svg", alt="alt").img100.m-auto
-            h5.text-center #[b Autoridad en la toma de decisiones]
-            p.text-center.mb-0 Tiene la facultad de decidir sobre los requisitos en representación de su grupo de usuarios, vinculando sus decisiones al conjunto del colectivo.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center
-              .col-5
-                img(src="@/assets/curso/temas/tema5/img9.svg", alt="alt").img100.m-auto
-            h5.text-center #[b Participación en el levantamiento y validación]
-            p.text-center.mb-0 Interviene activamente en las sesiones de elicitación y validación para asegurar que los requisitos reflejen las necesidades reales del negocio.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center
-              .col-5
-                img(src="@/assets/curso/temas/tema5/img11.svg", alt="alt").img100.m-auto
-            h5.text-center #[b Revisión y aprobación de requisitos]
-            p.text-center.mb-0 Revisa y aprueba la especificación de requisitos, garantizando su coherencia y alineación con los procesos del usuario.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center
-              .col-5
-                img(src="@/assets/curso/temas/tema5/img12.svg", alt="alt").img100.m-auto
-            h5.text-center #[b Priorización de funcionalidades]
-            p.text-center.mb-0 Define el orden de las funcionalidades desde la perspectiva del valor y la utilidad para los usuarios finales.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center
-              .col-5
-                img(src="@/assets/curso/temas/tema5/img13.svg", alt="alt").img100.m-auto
-            h5.text-center #[b Facilitación del acceso a usuarios]
-            p.text-center.mb-0 Actúa como puente entre el equipo de desarrollo y otros usuarios cuando se requiere información adicional o validaciones específicas.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center
-              .col-9
-                img(src="@/assets/curso/temas/tema5/img14.svg", alt="alt").img100.m-auto
-            h5.text-center #[b Punto de contacto del negocio]
-            p.text-center.mb-0 Es la referencia principal para resolver dudas relacionadas con los procesos del negocio durante el desarrollo del proyecto.
+    
+    .BG03.BG03-cols6.px-md-5.p-lg-0.p-4.mb-4
+      .row.justify-content-center.align-items-end.my-0.BG03-row
+        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/temas/tema5/img7.png", alt="")
+        .col-lg-8 
+          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-6")
+            .tarjeta.bgslyder2.p-4
+              .row.justify-content-center.mb-3
+                .col-5
+                  img(src="@/assets/curso/temas/tema5/img8.svg", alt="")
+              h5.text-center #[b Autoridad en la toma de decisiones]
+              span.mb-0 Tiene la facultad de decidir sobre los requisitos en representación de su grupo de usuarios, vinculando sus decisiones al conjunto del colectivo.
+            .tarjeta.bgslyder2.p-4
+              .row.justify-content-center.mb-3
+                .col-5
+                  img(src="@/assets/curso/temas/tema5/img9.svg", alt="")
+              h5.text-center #[b Participación en el levantamiento y validación]
+              span.mb-0 Interviene activamente en las sesiones de elicitación y validación para asegurar que los requisitos reflejen las necesidades reales del negocio.
+            .tarjeta.bgslyder2.p-4
+              .row.justify-content-center.mb-3
+                .col-5
+                  img(src="@/assets/curso/temas/tema5/img11.svg", alt="")
+              h5.text-center #[b Revisión y aprobación de requisitos]
+              span.mb-0 Revisa y aprueba la especificación de requisitos, garantizando su coherencia y alineación con los procesos del usuario.
+            .tarjeta.bgslyder2.p-4
+              .row.justify-content-center.mb-3
+                .col-5
+                  img(src="@/assets/curso/temas/tema5/img12.svg", alt="")
+              h5.text-center #[b Priorización de funcionalidades]
+              span.mb-0 Define el orden de las funcionalidades desde la perspectiva del valor y la utilidad para los usuarios finales.
+            .tarjeta.bgslyder2.p-4
+              .row.justify-content-center.mb-3
+                .col-5
+                  img(src="@/assets/curso/temas/tema5/img13.svg", alt="")
+              h5.text-center #[b Facilitación del acceso a usuarios]
+              span.mb-0 Actúa como puente entre el equipo de desarrollo y otros usuarios cuando se requiere información adicional o validaciones específicas.
+            .tarjeta.bgslyder2.p-4
+              .row.justify-content-center.mb-3
+                .col-5
+                  img(src="@/assets/curso/temas/tema5/img14.svg", alt="")
+              h5.text-center #[b Punto de contacto del negocio]
+              span.mb-0 Es la referencia principal para resolver dudas relacionadas con los procesos del negocio durante el desarrollo del proyecto.
+    
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Para desempeñar este rol efectivamente, el cliente líder debe reunir varias condiciones: conocimiento profundo y actualizado de los procesos del negocio, capacidad para comunicarse tanto con usuarios no técnicos como con el equipo de desarrollo, disponibilidad real de tiempo para participar en el proyecto (lo que implica un acuerdo formal con su jefatura), autoridad reconocida por sus colegas usuarios, y habilidades para gestionar conflictos y llegar a consensos cuando existen intereses divergentes entre grupos de usuarios.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 #[i Product Owner] (dueño del producto)
     p.mb-4 El #[i Product Owner] (PO) es un rol propio de los frameworks ágiles, especialmente de SCRUM. Es el responsable de maximizar el valor del producto y de gestionar el #[i product backlog] (lista priorizada de requisitos). Actúa como el representante del negocio dentro del equipo de desarrollo, tomando decisiones sobre qué funcionalidades se construirán, en qué orden y con qué criterios de aceptación. Es el único que puede agregar, modificar o repriorizar ítems del #[i product backlog].
     p.mb-4 El PO tiene tres responsabilidades fundamentales que el Scrum Guide define con precisión: 
     
-    .row.justify-content-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
-        .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle
-            figure
-              img(src="@/assets/curso/temas/tema5/img15.svg", alt="alt")
-          h5.text-center Definición de ítems del product backlog
-          p.text-center.mb-0 Establece claramente los ítems del #[i product backlog] mediante user stories bien formuladas y criterios de aceptación medibles y verificables.
-      .col-lg-4.mb-4.mb-lg-0
-        .crd.crd--grayGrad(data-aos="flip-left")
+    .row.justify-content-center.mb-4(data-aos="flip-down")
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
+        .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/tema5/img16.svg", alt="alt")
-          h5.text-center Priorización basada en valor y riesgo
-          p.text-center.mb-0 Ordena los ítems considerando el valor para el negocio, el riesgo técnico y las dependencias entre funcionalidades, asegurando un uso óptimo de los recursos.
-      .col-lg-4.mb-4.mb-lg-0
-        .crd.crd--grayGrad(data-aos="flip-left")
+              img(src="@/assets/curso/temas/tema5/img15.svg", alt="").img80.m-auto
+          h4.text-center Definición de ítems del product backlog
+          p.mb-0 Establece claramente los ítems del #[i product backlog] mediante user stories bien formuladas y criterios de aceptación medibles y verificables.
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
+        .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/tema5/img17.svg", alt="alt")
-          h5.text-center Aseguramiento de la comprensión del equipo
-          p.text-center.mb-0 Verifica que el equipo de desarrollo comprenda los requisitos con el nivel de detalle necesario para su correcta implementación en cada sprint.
+              img(src="@/assets/curso/temas/tema5/img16.svg", alt="").img80.m-auto
+          h4.text-center Priorización basada en valor y riesgo
+          p.mb-0 Ordena los ítems considerando el valor para el negocio, el riesgo técnico y las dependencias entre funcionalidades, asegurando un uso óptimo de los recursos.
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
+        .crd.crd--grayGrad
+          .bottomCircle.mb-5
+            figure
+              img(src="@/assets/curso/temas/tema5/img17.svg", alt="").img80.m-auto
+          h4.text-center Aseguramiento de la comprensión del equipo
+          p.mb-0 Verifica que el equipo de desarrollo comprenda los requisitos con el nivel de detalle necesario para su correcta implementación en cada sprint.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p A diferencia del cliente líder, el PO tiene plena autoridad para tomar decisiones sobre el producto sin consultar a la dirección en cada caso. Esta autoridad es indispensable para que el equipo ágil pueda planificar y ejecutar sprints con certeza, sin interrupciones causadas por la falta de una persona con poder de decisión sobre el alcance.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Equipo de desarrollo
     p.mb-4 El equipo de desarrollo está compuesto por los profesionales responsables de construir el sistema: programadores, diseñadores UX/UI, arquitectos de #[i software] e ingenieros de pruebas (QA). En los procesos ágiles, el equipo es multifuncional y autoorganizado: sus miembros poseen colectivamente todas las habilidades necesarias para construir el producto y deciden internamente cómo organizar su trabajo para alcanzar los objetivos de cada sprint sin supervisión directa de un gerente de proyecto.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-gg.bgf5.p-2.p-sm-4.p-md-3
+        .bloque-texto-gg.bgf10.p-2.p-sm-4.p-md-3
           .bloque-texto-gg__img2(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img18.png')})`}"
           )
@@ -204,7 +207,7 @@
             p.mb-0 El rol del equipo de desarrollo en el levantamiento de requisitos es activo, no pasivo. Los desarrolladores participan en las sesiones de refinamiento del #[i backlog], hacen preguntas que clarifican los requisitos antes de comenzar la implementación, identifican dependencias técnicas y ambigüedades que el analista puede no haber detectado, estiman el esfuerzo de implementación de cada historia de usuario, y proponen soluciones técnicas alternativas cuando los requisitos originales presentan complejidad excesiva o riesgos técnicos significativos que el cliente no había anticipado.
 
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Analista de requisitos
     p.mb-4 El analista de requisitos es el profesional especializado en el proceso de ingeniería de requisitos. Su función principal es actuar como puente entre el mundo del negocio y el mundo técnico, traduciendo las necesidades del cliente en especificaciones comprensibles para el equipo de desarrollo. Es el responsable de garantizar que los requisitos sean completos, consistentes y verificables, y de gestionar los cambios que inevitablemente surgen durante el desarrollo del proyecto.
     .row.justify-content-center.align-items-center.mb-4
@@ -225,7 +228,7 @@
           span Roles en el levantamiento de requisitos: responsabilidades y autoridad
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        .tabla-a.color-acento-contenido 
+        .tabla-a.color-acento-contenido.config-tabla 
           .tabla-a  
             table
               thead
