@@ -312,7 +312,7 @@
             table
               thead
                 tr
-                  th Criterio
+                  th Criterio   
                   th Requisito funcional
                   th Requisito no funcional
               tbody
